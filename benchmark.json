@@ -1,0 +1,59 @@
+{
+  "python": "3.12.14",
+  "platform": "Linux-6.18.57-x86_64-with-glibc2.41",
+  "processor": "x86_64",
+  "timing": "fresh process, warm filesystem",
+  "measurements": [
+    {
+      "cases_per_revision": 1000,
+      "shards_per_revision": 4,
+      "runs_ms": [
+        44.38,
+        29.74,
+        43.32,
+        44.63,
+        49.36,
+        27.42,
+        32.1
+      ],
+      "median_ms": 43.32,
+      "missing": 1,
+      "newly_skipped": 1,
+      "added": 1
+    },
+    {
+      "cases_per_revision": 10000,
+      "shards_per_revision": 4,
+      "runs_ms": [
+        67.62,
+        63.48,
+        56.83,
+        57.71,
+        53.4,
+        57.18,
+        58.18
+      ],
+      "median_ms": 57.71,
+      "missing": 10,
+      "newly_skipped": 10,
+      "added": 10
+    },
+    {
+      "cases_per_revision": 50000,
+      "shards_per_revision": 4,
+      "runs_ms": [
+        173.93,
+        177.32,
+        169.54,
+        172.92,
+        166.11,
+        166.78,
+        184.2
+      ],
+      "median_ms": 172.92,
+      "missing": 50,
+      "newly_skipped": 50,
+      "added": 50
+    }
+  ]
+}
